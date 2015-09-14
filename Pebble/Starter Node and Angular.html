@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:8080/profile -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+    <meta charset="UTF-8">
+    <!--<base href="/">--><base href=".">
+
+    <title>Starter Node and Angular</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://localhost:8080/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://localhost:8080/libs/angular-growl-v2/build/angular-growl.min.css">
+    <link rel="stylesheet" href="http://localhost:8080/css/style.css"> <!-- custom styles -->
+
+    <!-- JS -->
+    <script src="./Starter Node and Angular_files/jquery.min.js"></script>
+    <script src="./Starter Node and Angular_files/angular.js"></script>
+    <script src="./Starter Node and Angular_files/angular-route.min.js"></script>
+    <script src="./Starter Node and Angular_files/angular-cookies.min.js"></script>
+    <script src="./Starter Node and Angular_files/angular-growl.min.js"></script>
+    <script src="./Starter Node and Angular_files/bootstrap.min.js"></script>
+    <script src="./Starter Node and Angular_files/s3upload.js"></script>
+
+    <!-- ANGULAR CUSTOM -->
+    <script src="./Starter Node and Angular_files/FeedCtrl.js"></script>
+    <script src="./Starter Node and Angular_files/LoginCtrl.js"></script>
+    <script src="./Starter Node and Angular_files/ProfileCtrl.js"></script><style type="text/css"></style>
+    <script src="./Starter Node and Angular_files/NavCtrl.js"></script>
+
+    <script src="./Starter Node and Angular_files/PicService.js"></script>
+    <script src="./Starter Node and Angular_files/UserService.js"></script>
+
+    <script src="./Starter Node and Angular_files/common.js"></script>
+    <script src="./Starter Node and Angular_files/httpInterceptor.js"></script>
+    <script src="./Starter Node and Angular_files/Auth.js"></script>
+    <!--<script src="js/appRoutes.js"></script>-->
+    <script src="./Starter Node and Angular_files/app.js"></script>
+</head>
+<body ng-app="selfieApp" class="ng-scope">
+    <div class="container">
+
+        <!-- HEADER -->
+        <nav class="navbar navbar-default ng-scope" ng-controller="NavigationController">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://localhost:8080/">Selfie-A-Day</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <form class="navbar-form navbar-left ng-pristine ng-valid" role="search">
+                        <div class="form-group">
+                            <input id="nav-search" type="text" class="form-control" placeholder="search @username or #hashtag">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="http://localhost:8080/">Feed</a></li>
+                        <li ng-hide="isLoggedIn" class="ng-hide"><a href="http://localhost:8080/login">Login</a></li>
+                        <li ng-show="isLoggedIn"><a href="./Starter Node and Angular_files/Starter Node and Angular.html" class="ng-binding"></a></li>
+                        <li ng-show="isLoggedIn" class="dropdown">
+                            <a href="http://localhost:8080/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="http://localhost:8080/settings">Settings</a></li>
+                                <li><a ng-click="logout()">Log out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!-- ANGULAR DYNAMIC CONTENT -->
+        <!-- ngView:  -->
+
+    </div>
+
+</body></html>

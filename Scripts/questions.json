@@ -1,0 +1,355 @@
+{
+    "Daily": [
+        {
+            "category": "Life-satisfaction",
+            "id": 31,
+            "text": "Yesterday, I was satisfied with my life",
+            "type": "Percent"
+        },
+        {
+            "category": "Sleep",
+            "id": 32,
+            "max": 16,
+            "text": "Tonight, I slept ... hours",
+            "type": "Number"
+        },
+        {
+            "category": "Sleep",
+            "id": 33,
+            "range_text": 3,
+            "text": "Today, after my sleep, I felt",
+            "type": "Percent"
+        },
+        {
+            "category": "Sleep",
+            "id": 34,
+            "range_text": 4,
+            "text": "Tonight, I had bad dreams",
+            "type": "Percent"
+        },
+        {
+            "category": "Sleep",
+            "id": 35,
+            "range_text": 4,
+            "text": "Tonight, I had good dreams",
+            "type": "Percent"
+        },
+        {
+            "category": "Drinking",
+            "id": 36,
+            "max": 15,
+            "text": "Yesterday, I had ... alcoholic drinks",
+            "type": "Number"
+        },
+        {
+            "category": "Smoking",
+            "id": 37,
+            "max": 40,
+            "text": "Yesterday, I had ... cigarettes",
+            "type": "Number"
+        },
+        {
+            "category": "Physical-activity",
+            "id": 38,
+            "max": 300,
+            "text": "Yesterday, I walked ... minutes",
+            "type": "Number"
+        },
+        {
+            "category": "Physical-activity",
+            "id": 39,
+            "max": 300,
+            "text": "Yesterday, I exercised ... minutes",
+            "type": "Number"
+        },
+        {
+            "category": "Physical-activity",
+            "id": 40,
+            "max": 300,
+            "text": "Yesterday, I sat in front of a TV/video game/surfed the net ... minutes",
+            "type": "Number"
+        },
+        {
+            "category": "Symptoms",
+            "id": 41,
+            "range_text": "NOT AT ALL to VERY MUCH SO",
+            "text": "Yesterday, I had pain",
+            "type": "Percent"
+        },
+        {
+            "category": "Symptoms",
+            "id": 42,
+            "range_text": "NOT AT ALL to VERY MUCH SO",
+            "text": "This pain bothered me",
+            "type": "Percent"
+        },
+        {
+            "category": "Stress-management",
+            "id": 43,
+            "multi_select_options": [
+                "Took deep breaths",
+                "Checked in with my body",
+                "Took a moment to slow down",
+                "Paid deliberate attention to my actions"
+            ],
+            "text": "Yesterday, I used these techniques to deal with my stress",
+            "type": "Multiselect"
+        },
+        {
+            "category": "Stress-management",
+            "id": 44,
+            "multi_select_options": [
+                "Socializing with my friends",
+                "Eating something delicious",
+                "Listening to music",
+                "Talking to people",
+                "Exercising or walking",
+                "Writing to friends"
+            ],
+            "text": "Yesterday, I tried to cheer myself up by",
+            "type": "Multiselect"
+        }
+    ],
+    "Momentary": [
+        {
+            "category": "Emotions",
+            "emotion": "Upset",
+            "id": 0,
+            "text": "Right now I feel upset",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Angry",
+            "id": 1,
+            "text": "Right now I feel angry",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Sad",
+            "id": 2,
+            "text": "Right now I feel sad",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Depressed",
+            "id": 3,
+            "text": "Right now I feel depressed",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Nervous",
+            "id": 4,
+            "text": "Right now I feel nervous",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Anxious",
+            "id": 5,
+            "text": "Right now I feel anxious",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Happy",
+            "id": 6,
+            "text": "Right now I feel happy",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Content",
+            "id": 7,
+            "text": "Right now I feel content",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Excited",
+            "id": 8,
+            "text": "Right now I feel excited",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Energetic",
+            "id": 9,
+            "text": "Right now I feel energetic",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Relaxed",
+            "id": 10,
+            "text": "Right now I feel relaxed",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Alert",
+            "id": 11,
+            "text": "Right now I feel alert",
+            "type": "Emotion"
+        },
+        {
+            "category": "Emotions",
+            "emotion": "Stressed",
+            "id": 12,
+            "text": "Right now I feel stressed",
+            "type": "Emotion"
+        },
+        {
+            "category": "Ruminations",
+            "id": 13,
+            "text": "Right now, it is hard for me to switch off my negative thoughts",
+            "type": "Percent"
+        },
+        {
+            "category": "Ruminations",
+            "id": 14,
+            "text": "Right now, it is hard for me to focus on something other than my negative thoughts",
+            "type": "Percent"
+        },
+        {
+            "category": "Ruminations",
+            "id": 15,
+            "text": "Right now, I dwell on upsetting events",
+            "type": "Percent"
+        },
+        {
+            "category": "Self-compassion",
+            "id": 16,
+            "text": "Right now, I am kind to myself",
+            "type": "Percent"
+        },
+        {
+            "category": "Self-compassion",
+            "id": 17,
+            "text": "Right now, I am critical towards my flaws and weaknesses",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 18,
+            "multi_select_options": [
+                "Face",
+                "Head",
+                "Throat",
+                "Shoulder",
+                "Heart/chest",
+                "Stomach/digestion",
+                "Upper Back",
+                "Lower Back",
+                "Arms",
+                "Hands",
+                "Thigh",
+                "Knee",
+                "Feet/Ankle"
+            ],
+            "text": "Right now, I feel pleasant sensations in the following parts of my body",
+            "type": "Multiselect"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 19,
+            "range_text": 0,
+            "text": "Right now, I enjoy these pleasant sensations in my body",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 20,
+            "range_text": 1,
+            "text": "Right now, I try to prolong these pleasant sensations in my body",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 21,
+            "range_text": 2,
+            "text": "I think these pleasant sensations in my body will last",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 22,
+            "multi_select_options": [
+                "Face",
+                "Head",
+                "Throat",
+                "Shoulder",
+                "Heart/chest",
+                "Stomach/digestion",
+                "Upper Back",
+                "Lower Back",
+                "Arms",
+                "Hands",
+                "Thigh",
+                "Knee",
+                "Feet/Ankle"
+            ],
+            "text": "Right now, I feel unpleasant sensations in the following parts of my body",
+            "type": "Multiselect"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 23,
+            "range_text": 0,
+            "text": "Right now, these negative sensations in my body bother me",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 24,
+            "range_text": 1,
+            "text": "Right now, I try to push away these negative sensations",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 25,
+            "range_text": 1,
+            "text": "Right now, I accept these negative sensations as they are",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 26,
+            "range_text": 2,
+            "text": "I think these negative sensations in my body will last",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 27,
+            "range_text": 0,
+            "text": "Right now, I am lost in my emotions",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 28,
+            "range_text": 1,
+            "text": "Right now, these emotions bother me",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 29,
+            "range_text": 0,
+            "text": "Right now, I am lost in my thoughts",
+            "type": "Percent"
+        },
+        {
+            "category": "Mindfulness",
+            "id": 30,
+            "range_text": 1,
+            "text": "Right now, these thoughts bother me",
+            "type": "Percent"
+        }
+    ]
+}

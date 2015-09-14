@@ -1,0 +1,39 @@
+For testing:
+
+1) Push button that makes a POST call to the server with a start_time - this will return back and Assessment object that holds the id that you'll set on your Response objects - so just for test purposes, I'd wait for this response before you launch the assessment flow
+
+	Request:
+		--cookie "sessionid=0bznhbj2fullol03tovzqqf850o4w8l6" -v -H "Content-Type: application/json" -X POST --data '{"start_time":"2015-04-14T18:56:59"}' https://secure-headland-8362.herokuapp.com/api/v1/assessment/
+	Response:
+		{"complete_time": null, "created_at": "2015-04-14T19:40:30.518059", "id": 6, "resource_uri": "/api/v1/assessment/6/", "responses": [], "start_time": "2015-04-14T18:56:59", "updated_at": "2015-04-14T19:40:30.596062", "user": "/api/v1/user/65/"}
+
+2) Fill out the flow which will build up the objects and then at the end send them all up to me with the following form and just look for the 200 OK as a response
+
+Notice "multi_selects":[] and the other one would be "body_locations":[]
+
+But I still need to test body_locations so hold off on sending that up to me just yet
+
+	curl -v -H "Content-Type: application/json" -X PATCH --data 
+	'{
+	   "objects":[
+	      {
+	         "assessment_id":"4",
+	         "type":"0",
+	         "boolean":0,
+	         "question_id":"12"
+	      },
+	      {
+	         "assessment_id":"4",
+	         "type":"4",
+	         "question_id":"13",
+	         "multi_selects":[
+	            {
+	               "selection_id":"3"
+	            },
+	            {
+	               "selection_id":"8"
+	            }
+	         ]
+	      }
+	   ]
+	}' https://secure-headland-8362.herokuapp.com/api/v1/response/

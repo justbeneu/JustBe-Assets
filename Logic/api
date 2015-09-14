@@ -1,0 +1,26 @@
+--- API ---
+createUser(User user) -> user w/ id
+
+login(String usrnm, String psswd) -> session key
+
+getCompletedMeditations(uid) -> Listof(MeditationSessions)
+
+getCompletedExercises(uid) -> Listof(ExerciseSessions)
+
+meditate(id, percentage) -> void
+
+completeExercise(id) -> void
+
+--- Assessment API ---
+
+
+
+--- sqlite ---
+exercise: id, meditation id (maybe)
+meditation: id (maybe)
+
+meditationsession: stuff
+exercisesession: stuff
+
+--- plist ---
+path to audio files

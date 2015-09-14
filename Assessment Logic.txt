@@ -1,0 +1,42 @@
+enum QuestionType
+{
+	boolean,
+	number,
+	emotion,
+	percent,
+	multiSelect,
+	bodyMap
+}
+
+enum Emotion
+{
+	happy,
+	sad,
+	belligerent
+}
+
+~Question~
+String text - the question itself
+QuestionType type - enum of type
+Emotion emotion - the actual emotion if type is Emotion
+
+~Response~
+QuestionType type - enum of type
+
+~BooleanResponse~ implements Response
+boolean value - yes / no
+
+~NumberResponse~ implements Response
+Int value - any integer (maybe float?)
+
+~EmotionResponse~ implements Response
+Float value - percent of how happy they are
+Emotion emotion - the emotion it pertains to
+
+
+final statically defined questions
+final statically defined array of questions
+
+shuffle array (with custom shuffle method if necessary)
+
+initialize first view controller with type from Question
